@@ -74,8 +74,25 @@ navbar look good on small screens (display the links vertically instead of horiz
     }
 }
 
+/* Background image */
+.bg-img {
+     /* The image used */
+    background-image: url(background.jpg);
+
+    /* Control the height of the image */
+    min-height: 380px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Page content */
 .content {
+    margin: 0 auto;
+    background-color: #FFF;
+    width: 75%;
     padding: 16px;
 }
 
