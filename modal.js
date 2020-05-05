@@ -8,7 +8,7 @@ function modalContent(clicked_id) {
         document.getElementById("malware-desc-1").innerHTML = "A computer virus is a malicious program that spreads by copying itself to a legitimate program or document. \
         Viruses are designed to damage your computer by corrupting system files, wasting resources, destroying data, etc.";
         document.getElementById("malware-desc-2").innerHTML = "Computer viruses can be contracted in many ways. They can be spread through email and text message attachments, \
-        Internet file downloads, and scam links. Mobile devices,such as smartphones, can become infected with viruses through shady app downloads.";
+        Internet file downloads, and scam links. Mobile devices, such as smartphones, can become infected with viruses through shady app downloads.";
         document.getElementById("malware-desc-3").innerHTML = "Once a virus has successfully attached to a program, file, or document, it will lie dormant until circumstances cause the device \
         to execute its code, such as running the infected program. A virus can perform a variety of malicious actions including stealing passwords or data, corrupting files, spamming email, slowing down computer performance, \
         and generally being a nuisance."
@@ -37,13 +37,14 @@ function modalContent(clicked_id) {
     }
     else if (clicked_id == "ransomware") {
         document.getElementById("malware-name").innerHTML = "Ransomware";
-        document.getElementById("malware-desc-1").innerHTML = "Ransom malware, also known as ransomware, is a type of malware that blocks a user's access to their \
+        document.getElementById("malware-desc-1").innerHTML = "Ransomware, or ransom malware, is a type of malware that blocks a user's access to their \
         system or personal data unless a ransom is paid. Some types of ransomware may threaten to publish stolen data, such as sensitive files or personal photos.";
         document.getElementById("malware-desc-2").innerHTML = "Users can encounter ransomware in a number of ways. It can be downloaded onto a system when a user \
         visits a compromised or malicious website, arrive as a payload that is either dropped or downloaded by other malware, or delivered as attachments from spammed email.";
         document.getElementById("malware-desc-3").innerHTML = "Once ransomware has been executed in the system, it may lock the computer screen and/or encrypt files. \
-        A image or notification may be displayed on the infected computer's screen and prevents victims from accessing their system. Ransomware that encrypts files \
-        will prevent access to potentially critical or valuable files, such as documents, spreadsheets, and pictures.";
+        An image or notification may be displayed on the infected computer's screen and prevents victims from accessing their system. This also shows instructions for \
+        how users can pay for the ransom. Ransomware that encrypts files will prevent access to potentially critical or valuable files, such as documents, spreadsheets, \
+        and pictures.";
         document.getElementById("malware-tips").innerHTML = "To protect yourself against ransomware, you should use security software such as an antivirus program \
         that will detect and protect against threats. Additionally, you should keep your systems and software updated, as vulnerabilities in outdated software and \
         applications can be taken advantage of by ransomware. Any data you do not wish to lose, such as documents and photos, should be backed up on a regular basis, \
@@ -53,8 +54,21 @@ function modalContent(clicked_id) {
     }
     else if (clicked_id == "adware") {
         document.getElementById("malware-name").innerHTML = "Adware";
-        document.getElementById("malware-desc-1").innerHTML = "Test testy boi 3";
-        document.getElementById("malware-tips").innerHTML = "Test testy boi 4";
+        document.getElementById("malware-desc-1").innerHTML = "Adware, or advertising-supported malware, is malware that presents unwanted advertisements on your screen, usually \
+        within a web browser.";
+        document.getElementById("malware-desc-2").innerHTML = "A system can become infected with adware when a user downloads a program. Some developers offer free software but \
+        bundle it with adware from an adware vendor. Clicking on the ads generates revenue for the developer. Another way for adware to spread is by exploiting vulnerabilities in a \
+        web browser to load the malicious code onto a user's system without their knowledge when they visit a website.";
+        document.getElementById("malware-desc-3").innerHTML = "Streams of pop-up advertisements can slow down your computer's processor and take up lots of memory space, which may \
+        cause decreased system performance, program crashes, and your device to freeze up at times. You might find that websites you typically visit aren't displaying properly, \
+        website links redirecting you to sites that are different from what you expected, or new toolbars, extensions, and plugins suddenly populating your web browser. \
+        Additionally, some adware may change your web browser's homepage, in order to redirect you to a new page that might then install more adware and potentially other forms of \
+        malware on your computer.";
+        document.getElementById("malware-tips").innerHTML = "Be careful when downloading and installing any new software. Whenever possible, only download apps from the official app \
+        store for your operating system, such as the Google Play store for Android devices or the Microsoft Store for Windows devices. Avoid torrent sites, illegal downloads, and never \
+        download or open an app from an unknown source. Pay close attention to website URLs to make sure they're spelled correctly, use an ad blocker or avoid clicking on infected pop-ups \
+        or banner ads, and use caution before opening an email attachment. Some forms of adware can simply be uninstalled as a program or web browser extension, but it's a good practice \
+        to use antivirus software to help you detect and remove adware from your computer.";
     }
 }
 
