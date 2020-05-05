@@ -10,7 +10,7 @@ function modalContent(clicked_id) {
         document.getElementById("malware-desc-2").innerHTML = "Computer viruses can be contracted in many ways. They can be spread through email and text message attachments, \
         Internet file downloads, and scam links. Mobile devices,such as smartphones, can become infected with viruses through shady app downloads.";
         document.getElementById("malware-desc-3").innerHTML = "Once a virus has infected a computer, it may begin replicating or lie dormant until circumstances cause the device \
-        to execute its code. A virus can perform a variety of malicious actions including stealing passworrds or data, corrupting files, spamming email, slowing down computer performance, \
+        to execute its code, such as running the infected program. A virus can perform a variety of malicious actions including stealing passworrds or data, corrupting files, spamming email, slowing down computer performance, \
         and generally being a nuisance."
         document.getElementById("malware-tips").innerHTML = "You should use a trusted and up-to-date antivirus program that will detect and protect against computer viruses. Additionally, always exercise \
         caution when opening email and text message attachments, avoid shady websites or advertisements, and be careful when downloading files from the Internet."
