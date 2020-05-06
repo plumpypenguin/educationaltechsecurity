@@ -1,0 +1,89 @@
+/* Background image */
+.bg-img {
+    /* The image used */
+   background-image: url(background3.jpg);
+
+   /* Control the height of the image */
+   min-height: 380px;
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/* Page content */
+.content {
+  min-height: 760px;
+}
+
+/* The grid: Five equal columns that float next to each other */
+.column {
+  position: relative;
+  float: left;
+  width: 20%;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Display the columns below each other instead of side by side on small
+screens */
+@media screen and (max-width: 650px) {
+  .column {
+      width: 50%;
+      display: block;
+  }
+}
+
+.imgtext {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.row {
+  padding: 16px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding tab container (positioning is needed to position the close button and the text) */
+.container {
+  position: relative;
+  opacity: 0;
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+
+/* Expanding tab */
+#expandedTab {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+}
+
+/* Closable button inside the tab */
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: black;
+  font-size: 35px;
+  cursor: pointer;
+} 

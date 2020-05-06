@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="socialengineering.css">
+        <script src="iconClick.js"></script>
+        <script src="galleryClick.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Educational Tech Security</h2>
+            <p>A resource for learning about various security topics to help protect you in this digital age</p>
+        </div>
+        <div class="navbar" id="myNavbar">
+            <a href="index.html">Home</a>
+            <a href="malware.html">Malware</a>
+            <a href="socialengineering.html" class="active">Social Engineering</a>
+            <a href="javascript:void(0);" class="icon" onclick="iconClick()">&#9776;</a>
+        </div>
+        <div class="bg-img">
+            <div class="content">
+                <h3>What's social engineering?</h3>
+                <p>Social engineering is a type of psychological tactic used by attackers to trick victims into doing things they shouldn't do.</p>
+                <p>It relies on human error, rather than vulnerabilties in software and operating systems.</p>
+                <p>The goal of attackers is usually to get their victims to reveal sensitive information, such as login credentials, bank information, or computer access.</p>
+                <p>To protect yourself and recognize these attacks, we've created a list of popular social engineering attacks. Click on one to get started!</p>
+                <div class="row">
+                    <div class="column">
+                      <img src="phishing.jpg" id="phishing" alt="Phishing" style="width:100%" onclick="galleryClick(); tabContent(this.id)">
+                      <h4 class="imgtext">Phishing</h4>
+                    </div>
+                    <div class="column">
+                      <img src="pretexting.jpg" id="pretexting" alt="Pretexting" style="width:100%" onclick="galleryClick(); tabContent(this.id)">
+                      <h4 class="imgtext">Pretexting</h4>
+                    </div>
+                    <div class="column">
+                      <img src="quidproquo.jpg" id="quidproquo" alt="Quid Pro Quo" style="width:100%" onclick="galleryClick(); tabContent(this.id)">
+                      <h4 class="imgtext">Quid Pro Quo</h4>
+                    </div>
+                    <div class="column">
+                      <img src="baiting.jpg" id="baiting" alt="Baiting" style="width:100%" onclick="galleryClick(); tabContent(this.id)">
+                      <h4 class="imgtext">Baiting</h4>
+                    </div>
+                    <div class="column">
+                        <img src="tailgating.jpg" id="tailgating" alt="Tailgating" style="width:100%" onclick="galleryClick(); tabContent(this.id)">
+                        <h4 class="imgtext">Tailgating</h4>
+                      </div>
+                </div>
+                <div class="container" id="container">
+                    <span onclick="this.parentElement.style.opacity=0" class="closebtn">&times;</span>
+                    <div id="expandedTab">
+                        <h4 id="attack-name">Social Engineering Attack Name</h4>
+                        <p id="attack-desc-1">Social Engineering Attack Description 1</p>
+                        <p id="attack-desc-2">Social Engineering Attack Description 2</p>
+                        <p id="attack-desc-3">Social Engineering Attack Description 3</p>
+                    </div>
+                    <div id="imgtext"></div>
+                  </div>
+            </div>
+        </div>
+        <script src="stickyNavbar.js"></script>
+    </body>
+</html>

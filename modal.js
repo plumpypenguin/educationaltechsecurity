@@ -17,23 +17,54 @@ function modalContent(clicked_id) {
     }
     else if (clicked_id == "trojan") {
         document.getElementById("malware-name").innerHTML = "Trojans";
-        document.getElementById("malware-desc-1").innerHTML = "Test testy boi 3";
-        document.getElementById("malware-tips").innerHTML = "Test testy boi 4";
+        document.getElementById("malware-desc-1").innerHTML = "A Trojan horse or Trojan is a type of malware that is often disguised as legitimate software. Trojans can be employed by cyber-thieves and hackers trying to gain access to users' systems. \
+        Users are typically tricked by some form of social engineering into loading and executing Trojans on their systems.";
+        document.getElementById("malware-desc-2").innerHTML = "Some Trojans are specifically designed to trick you into using them. They can use misleading language or try to convince you they are a legitimate app. This is why it’s so important to watch \
+        out for unsafe websites and never download things carelessly.";
+        document.getElementById("malware-desc-3").innerHTML = "Once activated, Trojans can enable cyber-criminals to spy on you, steal your sensitive data, and gain backdoor access to your system. These actions can include deleting data, blocking data, \
+        modifying data, copying data, disrupting the performance of computers or computer networks."
+        document.getElementById("malware-tips").innerHTML = "To avoid getting infected with a Trojan horse, never download or install software from a source you do not trust completely. Never open an attachment or run a program sent to you in an email from someone you do not \
+        know. Keep all software on your computer up to date with the latest patches. Make sure an antivirus is installed and running on your computer.";
     }
     else if (clicked_id == "worm") {
         document.getElementById("malware-name").innerHTML = "Worms";
-        document.getElementById("malware-desc-1").innerHTML = "Test testy boi 5";
-        document.getElementById("malware-tips").innerHTML = "Test testy boi 6";
+        document.getElementById("malware-desc-1").innerHTML = "A worm is a malicious, self-replicating program that can spread throughout a network automatically. They  often utilize large amounts of memory and bandwidth, so infected servers, networks and individual systems \
+        are often overloaded and stop responding."
+        document.getElementById("malware-desc-2").innerHTML = "Worms can be transmitted via software vulnerabilities. Or computer worms could arrive as attachments in spam emails or instant messages (IMs). Once opened, these files could provide a link to a malicious website or \
+        automatically download the computer worm. Once it is installed, the worm silently goes to work and infects the machine without the user’s knowledge."
+        document.getElementById("malware-desc-3").innerHTML = "Worms can modify and delete files, and they can even inject additional malicious software onto a computer. Sometimes a computer worm’s purpose is only to make copies of itself over and over depleting system resources, \
+        such as hard drive space or bandwidth, by overloading a shared network. In addition to wreaking havoc on a computer’s resources, worms can also steal data, install a backdoor, and allow a hacker to gain control over a computer and its system settings. "
+        document.getElementById("malware-tips").innerHTML = "When browsing the web or using your computer, be sure to never download attachments unless you know exactly what they are and who they are from. Avoid free software from untrusted marketplaces. Be extremely cautious using P2P \
+        file sharing. Do not click on ads, especially ones from brands and websites you are not familiar with.";
     }
     else if (clicked_id == "rootkit") {
         document.getElementById("malware-name").innerHTML = "Rootkits";
-        document.getElementById("malware-desc-1").innerHTML = "Test testy boi 7";
-        document.getElementById("malware-tips").innerHTML = "Test testy boi 8";
+        document.getElementById("malware-desc-1").innerHTML = "Rootkits are a type of malware that are designed so that they can remain hidden on your computer. They give cybercriminals the ability to remotely control your computer. \
+        Rootkits can do numerous things such as stealing your passwords and banking information, but there are different types of rootkits to look out for.";
+        document.getElementById("malware-desc-2").innerHTML = "Because rootkits can hijack or subvert security software, they are especially hard to detect, making it likely that this type of malware could live on your computer for \
+        a long time causing significant damage. Unfortunately, sometimes the only way to completely eliminate a well-hidden rootkit is to erase your computer’s operating system and rebuild from scratch. There are a numberof ways rootkits can get on your computer. \
+        You might open an email and download a file that looks safe but is actually a virus. You might also accidentally download a rootkit through an infected mobile app."
+        document.getElementById("malware-desc-3").innerHTML = "There are a variety of rootkits that perform different actions. Hardware/firmware rootkits are installed and infects the computer hard drive or the system BIOS letting \
+        it intercept data coming from either. Bootloader rootkits are active as soon as you turn on the machine. Memory rootkits hide in the RAM of the computer, but can mostly go away after a simple reboot. Application rootkits \
+        infect different files and programs on the computer giving the hacker access to the machine anytime one of them is opened or used while not changing how the file or program runs. Kernel mode rootkits target the OS of the computer \
+        and hackers can add their own code to it making it run how they want it to.";
+        document.getElementById("malware-tips").innerHTML = "There are many precautions a user can take to help prevent rootkits from hijacking their computer. Keeping your OS and other applications up to date is a simple way to help protect \
+        yourself against rootkits. Refrain from opening unfamiliar emails, asammers are everywhere nowadays and try to get your information by sending suspicious emails with a link attached to it. Refrain from clicking on the links and delete \
+        the emails. Don’t download files from unknown or untrustworthy sources. This can lead to a rootkit being installed onto your computer so make sure you where a file is from before opening it.";
     }
     else if (clicked_id == "spyware") {
         document.getElementById("malware-name").innerHTML = "Spyware";
-        document.getElementById("malware-desc-1").innerHTML = "Test testy boi 9";
-        document.getElementById("malware-tips").innerHTML = "Test testy boi 10";
+        document.getElementById("malware-desc-1").innerHTML = "Spyware is malicious software designed to infiltrate your computer undetected and keep track of your internet usage, gain your passwords, and any other personal information.";
+        document.getElementById("malware-desc-2").innerHTML = "You can get your computer infected with spyware by downloading from unreliable sources, opening unfamiliar emails, pirating movies or games, and even clicking on a pop-up \
+        without reading what it says first.";
+        document.getElementById("malware-desc-3").innerHTML = "While the functionality of any spyware threat depends on the intentions of its authors, they all share the same goal: gathering information. Password stealers are applications \
+        that harvest passwords from infected computers. The types of collected passwords may include stored credentials from web browsers, system login credentials, and critical passwords. Banking Trojans are applications designed \
+        to harvest credentials from financial institutions. They take advantage of vulnerabilities in browser security to modify web pages, modify transaction content, or insert additional transactions, all in a covert fashion invisible \
+        to both the user and host web application. Infostealers are applications that scan infected computers and seek out a variety of information, including usernames, passwords, email addresses, browser history, log files, system information, \
+        documents, spreadsheets, or other media files. Keyloggers are applications designed to capture computer activity, including keystrokes, websites visited, search history, email discussions, chatroom dialogue, and system credentials.";
+        document.getElementById("malware-tips").innerHTML = "There are some precautions you can take to help prevent spyware for getting onto your computer. Don’t open emails from random or unfamiliar senders because this can get spyware on your \
+        computer easily if you’re careless. Try not to download from unsecure or unreliable sources. Doing so could just download unneeded spyware. Make sure to read any pop-ups before clicking on them. Finally make sure to have a \
+        reliable antivirus software installed on your computer and keep it up to date.";
     }
     else if (clicked_id == "ransomware") {
         document.getElementById("malware-name").innerHTML = "Ransomware";
