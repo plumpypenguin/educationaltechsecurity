@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="jobs&statistics.css">
+        <script src="iconClick.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Educational Tech Security</h2>
+            <p>A resource for learning about various security topics to help protect you in this digital age</p>
+        </div>
+        <div class="navbar" id="myNavbar">
+            <a href="index.html">Home</a>
+            <a href="malware.html">Malware</a>
+            <a href="socialengineering.html">Social Engineering</a>
+            <a href="bestpractices.html">Best Practices</a>
+            <a href="hackers.html">Hackers</a>
+            <a href="jobs&statistics.html" class="active">Jobs & Statistics</a>
+            <a href="javascript:void(0);" class="icon" onclick="iconClick()">&#9776;</a>
+        </div>
+        <div class="bg-img">
+            <div class="content">
+                <h3>Jobs & Statistics</h3>
+                <p>Interested in the field of cybersecurity? Here are some jobs and statistics that may interest you. You might find something that sparks your interest.</p>
+                <button class="accordion">Penetration Testers</button>
+                <div class="panel">
+                    <p>
+                        A penetration tester, or pen tester, is considered to be a white hat or ethical hacker. They are security experts who try and understand attackers’ motives 
+                        and approach. Essentially, they must think like a bad guy to identify weaknesses in networks. These weaknesses, or vulnerabilities, must be properly managed 
+                        in order to avoid being compromised. Pen testers target operating systems and devices, emerging technology like Internet of Things (IoT) devices, mobile devices, 
+                        and much more. They learn about and keep on top of the latest testing and hacking methods, perform social engineering tests, review physical security, locate and 
+                        assess vulnerabilities, among other things.
+                    </p>
+                </div>
+                <button class="accordion">Cryptography Jobs</button>
+                <div class="panel">
+                    <p>
+                        Encryption is the process of scrambling data to prevent unauthorized individuals from being able to read and understand this information. This is where cryptographers 
+                        and cryptanalysts come into play. They create and decipher codes and puzzles. These security professionals ensure safe communication and information exchange.
+                    </p>
+                    <p>
+                        Cryptographers write ciphers, or algorithms for performing encryption and decryption, and security protocols, or sets of rules, to encrypt data. As more and more information is becoming digital, 
+                        cryptographers secure military data, maintain the integrity of electronic medical records and personal health information, and encrypt financial data like bank records, e-commerce activity, 
+                        and credit and debit card information. On the flip side, cryptanalysts work to decrypt data, breaking deconstructing algorithms and ciphers in order to access information. By doing so, they 
+                        learn how to avoid gaps in security and protect individuals, groups, and organizations.
+                    </p>
+                </div>
+                <button class="accordion">Malware Analysts</button>
+                <div class="panel">
+                    <p>
+                        Malware analysts are experts that identify threats such as viruses, worms, Trojans, and rootkits. They are professionals who protect digital assets from threats and work with other security 
+                        experts in teams. These detectives need to be able to dissect malware code and understand various programming languages so companies can build defenses. Once they define and understand malware code, 
+                        they also have to create code that defends the network from these cyber threats. Some malware analysts work for antivirus companies to create definition files to protect end users from the growing list 
+                        of malware programs created every day.
+                    </p>
+                </div>
+                <button class="accordion">Forensics Experts</button>
+                <div class="panel">
+                    <p>
+                        Okay, so we’ve talked about some cybersecurity jobs that deal with protecting against attacks and threats. But what happens after a cybercrime DOES take place? Let’s talk about forensic experts. These security 
+                        professionals investigate cyber crimes like data breaches and other security incidents. They gather and inspect evidence from IT equipment, networks, and other settings before submitting this evidence to law enforcement 
+                        and other authorities.
+                    </p>
+                    <p>
+                        These individuals often work for large corporations in various industries, legal firms, or governments. Forensics experts retrieve data stored on devices and systems, often dismantling and reconstructing 
+                        information and security systems. They meticulously retrace evidence of cybercrime back to the initial breach in order to identify which security vulnerability allowed it. Once they’ve compiled evidence of the cybercrime, they 
+                        organize it into clear, detailed, and accessible reports for executives, law enforcement, lawyers, and judges.
+                    </p>
+                    <p>
+                        Most times, forensics experts need to explain reports, answer questions, and occasionally serve as expert witnesses in court. 
+                        The goal of forensics experts is to improve the security of organizations, typically advising executives on system improvements and educating employees about cybersecurity matters.
+                    </p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="tab">
+                    <div class="tabmenu">
+                        <button class="tablinks" onclick="openTab(event, 'breaches')" id="defaultOpen">Breach Statistics</button>
+                        <button class="tablinks" onclick="openTab(event, 'malware')">Malware Statistics</button>
+                        <button class="tablinks" onclick="openTab(event, 'spending&costs')">Security Spending and Costs Statistics</button>
+                        <button class="tablinks" onclick="openTab(event, 'jobs')">Job Statistics</button>
+                    </div>
+                    <div id="breaches" class="tabcontent">
+                        <div class="tabimage">
+                            <img src="breach.jpg" alt="Breaches" class="tabimg">
+                        </div>
+                        <div class="tabtext">
+                            <h3>Breach Statistics</h3>
+                            <p>
+                                According to <a href="https://enterprise.verizon.com/en-gb/resources/reports/dbir/">Verizon</a>, 52% of breaches consisted of hacking, 28% involved malware, and 32 - 33% including phishing or social engineering, respectively.
+                            </p>
+                            <p>
+                                The <a href="https://www.idtheftcenter.org/data-breaches/">ID Theft Resource Center</a> reports that between January 1, 2005, and April 18, 2018, there have been 8,854 recorded breaches.
+                            </p>
+                            <p>
+                                The average total cost of a data breach in 2019 was 3.92 million, according to <a href="https://www.ibm.com/security/data-breach">IBM.</a>
+                            </p>
+                            <p>
+                                The <a href="https://investor.equifax.com/news-and-events/press-releases/2017/09-07-2017-213000628">Equifax</a> breach affected roughly half of the US population in 2017.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="malware" class="tabcontent">
+                        <div class="tabimage">
+                            <img src="malware.jpg" alt="Malware" class="tabimg">
+                        </div>
+                        <div class="tabtext">
+                            <h3>Malware Statistics</h3>
+                            <p>
+                                In the 2019 DBIR, 94% of malware was delivered by email, reports <a href="https://enterprise.verizon.com/resources/reports/dbir/">Verizon.</a>
+                            </p>
+                            <p>
+                                According to the <a href="https://technology.inquirer.net/62619/least-100000-groups-150-countries-hit-ransomware">Technology Inquirer</a>, 100,000 groups in at least 150 countries and more than 400,000 machines were infected by the Wannacry virus in 2017.
+                            </p>
+                            <p>
+                                The financial sector was greatly affected in 2017 by the Trojan horse virus Ramnit, accounting for 53% of attacks, reports <a href="https://www.cisco.com/c/en/us/products/security/security-reports.html#~stickynav=2">Cisco</a>.
+                            </p>
+                            <p>
+                                <a href="https://www.cisco.com/c/en/us/products/security/security-reports.html#~stickynav=2">Cisco</a> reports that about 60% of malicious domains are associated with spam campaigns.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="spending&costs" class="tabcontent">
+                        <div class="tabimage">
+                            <img src="money.jpg" alt="Money" class="tabimg">
+                        </div>
+                        <div class="tabtext">
+                            <h3>Security Spending and Costs Statistics</h3>
+                            <p>
+                                <a href="https://www.gartner.com/en/newsroom/press-releases/2018-08-15-gartner-forecasts-worldwide-information-security-spending-to-exceed-124-billion-in-2019">Gardner</a> reports that by 2020, security services are expected to account for 50% of cybersecurity budgets.
+                            </p>
+                            <p>
+                                Ransomware damage costs will rise to $11.5 billion in 2019 and a business will become a victim to a ransomware attack every 14 seconds at that time, according to <a href="https://cybersecurityventures.com/cybersecurity-market-report/">Cybersecurity Ventures.</a>
+                            </p>
+                            <p>
+                                The total cost of cybercrime for each company increased by 12% from $11.7 million in 2017 to $13.0 million in 2018, reports <a href="https://www.accenture.com/_acnmedia/PDF-96/Accenture-2019-Cost-of-Cybercrime-Study-Final.pdf#zoom=50">Accenture</a>.
+                            </p>
+                            <p>
+                                <a href="https://www.ibm.com/downloads/cas/ZYKLN2E3">Ponemon Institute’s Cost of Data Breach Study</a> reports that including turnover of customers, increased customer  acquisition activities, reputation losses and diminished goodwill, the cost of lost business globally was highest for US companies at $4.23 million per company.
+                            </p>
+                        </div>
+                    </div>
+                    <div id="jobs" class="tabcontent">
+                        <div class="tabimage">
+                            <img src="job.jpg" alt="Jobs" class="tabimg">
+                        </div>
+                        <div class="tabtext">
+                            <h3>Job Statistics</h3>
+                            <p>
+                                <a href="https://www.members.issa.org/page/2017_issaesg_surv">ISSA</a> notes that 82% of employers report a shortage of cybersecurity skills.
+                            </p>
+                            <p>
+                                Information Security Analysts job positions in the US are expected to grow 32% according to the <a href="https://www.bls.gov/ooh/computer-and-information-technology/information-security-analysts.htm">Bureau of Labor Statistics.</a>
+                            </p>
+                            <p>
+                                Since 2016, the demand for Data Protection Officers (DPOs) has skyrocketed and risen over 700% due to GDPR demands, reports <a href="https://www.reuters.com/article/us-cyber-gdpr-dpo/rise-of-the-data-protection-officer-the-hottest-tech-ticket-in-town-idUSKCN1FY1MY">Reuters.</a>
+                            </p>
+                            <p>
+                                According to <a href="https://cybersecurityventures.com/jobs/">Cybersecurity Ventures</a>, by 2021, it’s projected that there will be 3.5 million unfilled cybersecurity jobs globally.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="stickyNavbar.js"></script>
+        <script src="accordion.js"></script>
+        <script src="openTab.js"></script>
+    </body>
+</html>

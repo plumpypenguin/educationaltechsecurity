@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="bestpractices.css">
+        <script src="iconClick.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Educational Tech Security</h2>
+            <p>A resource for learning about various security topics to help protect you in this digital age</p>
+        </div>
+        <div class="navbar" id="myNavbar">
+            <a href="index.html">Home</a>
+            <a href="malware.html">Malware</a>
+            <a href="socialengineering.html">Social Engineering</a>
+            <a href="bestpractices.html"  class="active">Best Practices</a>
+            <a href="hackers.html">Hackers</a>
+            <a href="jobs&statistics.html">Jobs & Statistics</a>
+            <a href="javascript:void(0);" class="icon" onclick="iconClick()">&#9776;</a>
+        </div>
+        <div class="bg-img">
+            <div class="content">
+                <h3>Best Practices</h3>
+                <p>As we use more and more of the Internet in our daily lives, here are some tips to keep in mind.</p>
+                <div class="tab">
+                    <button class="tablinks" onclick="openTopic(event, 'antivirus')" id="defaultOpen">Antivirus</button>
+                    <button class="tablinks" onclick="openTopic(event, 'email')">Email</button>
+                    <button class="tablinks" onclick="openTopic(event, 'physicaldevices')">Physical Devices</button>
+                    <button class="tablinks" onclick="openTopic(event, 'password')">Passwords</button>
+                    <button class="tablinks" onclick="openTopic(event, 'passwordmanager')">Password Managers</button>
+                </div>
+                <div id="antivirus" class="tabcontent">
+                    <h3>Antivirus</h3>
+                    <p>Antivirus software is a must-have for anyone using the Internet on their computer.</p>
+                    <p>
+                        One of the most important things to look for in an antivirus product is user-friendly features. It shouldn’t be hard to navigate through or hard to understand. 
+                        You should be able to have a general understanding of how to use it and easy-to-find documentation should be available in case you need help using it.
+                    </p>
+                    <p>
+                        Another key factor to consider is the reliability of the software. As a general rule of thumb, you should only have one antivirus product on your 
+                        computer at any given moment to avoid causing any conflicts. During installation, the security suite should detect if any similar security programs 
+                        are already installed and ask you to remove them before installing itself. It should also be compatible with your device. Some antiviruses may only run on certain operating systems.
+                    </p>
+                    <p>
+                        Consider the performance impact. A good security product shouldn’t have a big impact on the boot time and performance of your computer. Your computer should turn on and be ready to use 
+                        just as fast as it did before installing an antivirus. Additionally, you shouldn’t notice your computer running slower, as that indicates your antivirus is using up too many resources. 
+                        It should also be fast to scan your computer for any potential threats.
+                    </p>
+                    <p>
+                        As time goes on, malware will become more powerful and complex. Some types of malware will try to kill the antivirus running and take control over your system. A reliable security product 
+                        should always protect its processes from unwanted termination.
+                    </p>
+                    <p>
+                        Antiviruses use virus signatures, or bits of code that identifies a virus. Viruses can have the same virus signature, which allows an antivirus program to detect multiple viruses using a 
+                        single signature and even detect a virus that is not known yet. New viruses are being developed on a frequent basis, with unique signatures to avoid detection. As threats evolve continuously, 
+                        so must antiviruses. A good antivirus should regularly update itself, multiple times a day.
+                    </p>
+                    <p>
+                        Your antivirus should automate security scans. You should be able to schedule scans on a regular basis, ensuring your computer is checked for threats consistently.
+                    </p>
+                    <p>
+                        Consider what you need when determining to go with a free or paid antivirus product. Some free products may not offer real-time scanning or just come with basic services. 
+                        Sometimes free software comes bundled with adware and other unnecessary programs. It might be free because it collects your information and sells it to third-party groups. 
+                        Compare features between free and paid security suites to determine what exactly you’re getting and if you should pay a little more for a more comprehensive solution.
+                    </p>
+                    <p>
+                        Finally, look at user reviews and check customer support. You should consider other people’s experience with an antivirus product. They may bring up points you haven’t 
+                        considered and things you can expect when using the product. Look for reputable and trustworthy companies that others have used for their security solution. A good company should update 
+                        and inform customers about issues on a regular basis, and provide excellent customer support should you have any issues.
+                    </p>
+                    <p>
+                        Use common sense. While an antivirus can help you detect and get rid of threats and malware, it’s a good idea to prevent them from occurring in the first place. Avoid shady websites, downloads 
+                        from unknown sources, fishy advertisements, and other tactics bad actors use to catch victims.
+                    </p>
+                </div>
+                <div id="email" class="tabcontent">
+                    <h3>Email</h3>
+                    <p>Email is a great way for communication over the Internet. Unfortunately, bad actors have taken advantage of this for their own personal gain. Here are some tips to keep yourself safe.</p>
+                    <p>Don't open any emails from someone you don't know or trust. You don't know what their intentions are, so it's a good idea to assume it's not good. Report the email as spam and move on.</p>
+                    <p>Check the sender's email address even for emails you were expecting. Scammers typically use an email address similar to ones used by trusted companies and organizations in order to trick their victims.</p>
+                    <p>Poor spelling and grammar and inconsistent layout typically indicate phishing emails.</p>
+                    <p>Don't open attachments within an email that you were not expecting. These attachments could contain viruses and other forms of malware.</p>
+                    <p>Don't send sensitive information like your bank account number through email. If you receive a request for information, contact the organization directly to confirm its validity.</p>
+                    <p>Whenever possible, avoid clicking links within an email. Usually, whatever needs to be done can be done by visiting the website directly. These links could redirect you to a fake, malicious website.</p>
+                    <p>Avoid giving out your email to sites you don't trust or to online public places like message boards or comment boards. You could receive lots of spam emails and malicious emails.</p>
+                    <p>Above all, use common sense. If it seems fishy or too good to be true, it probably is.</p>
+                </div>
+                <div id="physicaldevices" class="tabcontent">
+                    <h3>Physical Devices</h3>
+                    <p>Of course, there are some precautions to take with physical devices as well.</p>
+                    <p>Whenever possible, use a strong login password to secure your device. It may be a little inconvenient to have to login everytime you want to use it, but this ensures no one will have access to it that shouldn't have.</p>
+                    <p>If possible, use biometrics to login to your device. Biometric technology, like fingerprint mapping, facial recognition, or retina scans, use your physical characteristics to login. This way, if someone who shouldn't have your device gets ahold of it, they won't be able to access it.</p>
+                    <p>Lock your screen, sign out of your account or shut down your device when it's not in use. Simply walking away when you're done using it means someone can just walk over and use your device.</p>
+                    <p>Keep any portable devices, like your smartphone, on you at all times. Thieves might try to steal it if it's out in the open or left unattended.</p>
+                    <p>Be aware of your surroundings. If using your device in public, make sure no one can see you type any passwords or view any sensitive information.</p>
+                    <p>Backup your data frequently. If your device is lost, stolen, or damaged, you should still have a way to access your data. Copy it to an external storage device, like an external hard drive or to the cloud.</p>
+                    <p>Remember to delete any sensitive information and completely wipe your device before giving or selling it to others. If you forget, they could have access to that data.</p>
+                </div>
+                <div id="password" class="tabcontent">
+                    <h3>Passwords</h3>
+                    <p>Passwords are typically the first line of defense that prevents others from accessing your accounts without permission.</p>
+                    <p>One of the most important things to keep in mind when creating a password is to never use the same password more than once. If someone knew this one password, then they would be able to get into all your accounts.</p>
+                    <p>A long password is a strong password. 12 - 20 characters is good, but keep in mind this number will increase as technology improves. As processing power in computers improve, the less time it takes to crack a short password.</p>
+                    <p>Use a mix of symbols, numbers, upper-case, and lower-case characters. This makes passwords harder to crack because there are more possibilities when using different types of characters.</p>
+                    <p>Don't use dictionary words like "house" or "tiger" or obvious substitutions like "@" for "a" or "0" for "o".</p>
+                    <p>Never write down your passwords and avoid sharing them with others. We want to reduce the opportunities others have of obtaining your passwords.</p>
+                </div>
+                <div id="passwordmanager" class="tabcontent">
+                    <h3>Password Managers</h3>
+                    <p>Password managers are an easy way to create strong, unique passwords without remembering them all. Some offer to synchronize saved passwords across multiple devices and automatically fill in log-in forms as needed.</p>
+                    <p>They typically use a master password to unlock the password vault, which holds all of your passwords.</p>
+                    <p>Now, you might be concerned. Why should you use a password manager if all someone has to do if figure out what your master password is?</p>
+                    <p>A good password manager should use a zero-knowledge model, meaning an encrypted, or scrambled copy of the password vault is stored on their servers.</p>
+                    <p>To decrypt, or unscramble these passwords, the process is done locally on the user's device using the master password, so the master password is never shared with the service provider or sent over the Internet.</p>
+                    <p>An important thing to note is that this does not stop client-side attacks, so if your computer gets infected with keyloggers, the attacker could see your master password by seeing what you typed.</p>
+                    <p>So, you should also find a password manager that supports two-factor authentication. This means you provide another piece of evidence, like a code texted to your phone, in addition to the master password.</p>
+                    <p>Additionally, look for password managers that are open source. This means anyone can inspect the source code used to make the password manager and see if it's doing anything fishy.</p>
+                    <p>One final thing to note once you have a password manager and a password vault setup: backup and encrypt the password vault onto an external drive, like a flash drive. This ensures you're still able to access your passwords if the servers go down or the service provider's copy of your password vault gets corrupted.</p>
+                </div>
+            </div>
+        </div>
+        <script src="stickyNavbar.js"></script>
+        <script src="openTopic.js"></script>
+    </body>
+</html>

@@ -1,7 +1,7 @@
 /* Background image */
 .bg-img {
     /* The image used */
-   background-image: url(background4.jpg);
+   background-image: url(background6.jpg);
 
    /* Control the height of the image */
    min-height: 380px;
@@ -14,7 +14,7 @@
 
 /* Page content */
 .content {
-    min-height: 760px;
+    min-height: 1520px;
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
@@ -56,6 +56,7 @@ class with JS), and when you move the mouse over it (hover) */
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    overflow: auto;
 }
 
 /* Style the tab menu */
@@ -118,13 +119,14 @@ class with JS), and when you move the mouse over it (hover) */
 .tabtext {
     float: right;
     width: 70%;
+    font-size: 12px;
 }
 
 /* Display the divs below each other instead of side by side on small
 screens */
 @media screen and (max-width: 650px) {
     .content {
-        min-height: 2470px;
+        min-height: 3420px;
     }
     .tabimage {
         width: 100%;
