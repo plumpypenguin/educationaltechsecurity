@@ -17,8 +17,7 @@ function tabContent(clicked_id) {
         and signature, spoofed hyperlinks and websites, incorrect spelling and inconsistent layout, and suspicious attachments.";
         document.getElementById("attack-desc-3").innerHTML = "A good practice is to visit the organization’s website or contact their official phone number for customer \
         service when information is requested from you. As a general rule of thumb, to determine if a request is legitimate, try to verify it by contacting the organization directly.";
-    }
-    else if (clicked_id == "pretexting") {
+    } else if (clicked_id == "pretexting") {
         document.getElementById("attack-name").innerHTML = "Pretexting";
         document.getElementById("attack-desc-1").innerHTML = "Pretexting is another form of social engineering where an attacker creates a good pretext, \
         or fabricates a scenario, that is used to try and steal victims’ personal information. Scammers will impersonate individuals who can be perceived as \
@@ -32,8 +31,7 @@ function tabContent(clicked_id) {
         document.getElementById("attack-desc-3").innerHTML = "Unlike phishing attacks, which rely on fear and urgency, pretexting attacks require a false sense of trust to \
         be built with the victim. The attacker needs to build a credible story that leaves little room for doubt for their target. Again, as a precaution, to avoid giving out \
         sensitive information to the wrong people, always contact the organization directly whenever you receive a request for information, in order to confirm its validity.";
-    }
-    else if (clicked_id == "quidproquo") {
+    } else if (clicked_id == "quidproquo") {
         document.getElementById("attack-name").innerHTML = "Quid Pro Quo";
         document.getElementById("attack-desc-1").innerHTML = "Similar to baiting attacks, quid pro quo attacks offer some sort of benefit in exchange for information. These \
         benefits usually assume a form of service, rather than taking the form of a good like baiting attacks.";
@@ -42,8 +40,7 @@ function tabContent(clicked_id) {
         will have the user type commands that give them access or launch malware.";
         document.getElementById("attack-desc-3").innerHTML = "With the quid pro quo scheme, as the old saying goes, “If it’s too good to be true, it probably is.” Be wary of what someone \
         is requesting from you when offering their services. Fraudsters impersonating IT support technicians may ask for your login details, ask you to disable your antivirus software, or install a program they send you.";
-    }
-    else if (clicked_id == "baiting") {
+    } else if (clicked_id == "baiting") {
         document.getElementById("attack-name").innerHTML = "Baiting";
         document.getElementById("attack-desc-1").innerHTML = "Baiting is similar to a real-world version of a Trojan horse. \
         Baiting attacks use a false promise that piques a victim’s greed or curiosity. This could be a promise of an item or \
@@ -54,8 +51,7 @@ function tabContent(clicked_id) {
         can also exploit human curiosity using physical media. Malware-infected flash drives are popularly used by baiters and left in areas where \
         potential victims are likely to see them, such as bathrooms, elevators, or parking lots. Victims pick up the flash drive and insert it into a \
         work or home computer, resulting in the installation of malware.";
-    }
-    else if (clicked_id == "tailgating") {
+    } else if (clicked_id == "tailgating") {
         document.getElementById("attack-name").innerHTML = "Tailgating";
         document.getElementById("attack-desc-1").innerHTML = "Tailgating, also known as piggybacking, is a form of social engineering attack that’s almost \
         exclusively physical. In this type of attack, an attacker without the proper authentication asks for access to a restricted area of an organization’s \

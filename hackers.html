@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="hackers.css">
+        <script src="iconClick.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h2>Educational Tech Security</h2>
+            <p>A resource for learning about various security topics to help protect you in this digital age</p>
+        </div>
+        <div class="navbar" id="myNavbar">
+            <a href="index.html">Home</a>
+            <a href="malware.html">Malware</a>
+            <a href="socialengineering.html">Social Engineering</a>
+            <a href="hackers.html" class="active">Hackers</a>
+            <a href="javascript:void(0);" class="icon" onclick="iconClick()">&#9776;</a>
+        </div>
+        <div class="bg-img">
+            <div class="content">
+                <h3>All About Hackers</h3>
+                <p>When people think about the word "hacker", they may think of an evildoer who's able to gain unauthorized access to other computers, causing mayhem and damage for financial gain.</p>
+                <p>They might be surprised to learn that not all hackers are out to do harm, and they all have varying motivations for hacking.</p>
+                <p>Here, we've created a section detailing the three different categories of hackers and the various type of threat actors.</p>
+                <button class="accordion">White Hat Hackers</button>
+                <div class="panel">
+                    <p>White hat hackers, also known as ethical hackers, are individuals who use their programming skills for good in a ethical and legal manner.</p>
+                    <p>These hackers are given permission from companies or organizations to try and hack into their networks or computers.</p>
+                    <p>They search for vulnerabilities or errors and report them before these vulnerabilities can be exploited and taken advantage of.</p>
+                    <p>While some companies may contract or employ ethical hackers, they may also award prizes or bounties to ethical hackers that inform them of vulnerabilities.</p>
+                </div>
+                <button class="accordion">Gray Hat Hackers</button>
+                <div class="panel">
+                    <p>Gray hat hackers are individuals who commit crimes and arguably unethical actions, but without malicious intent.</p>
+                    <p>They are essentially the middle ground between white hat and black hat hackers.</p>
+                    <p>For example, a gray hat hacker may compromise an organizaton's network or systems without its permission first.</p>
+                    <p>Upon discovering vulnerabilities, the hacker may disclose them publicly or to the company afterwards.</p>
+                </div>
+                <button class="accordion">Black Hat Hackers</button>
+                <div class="panel">
+                    <p>Black hat hackers are unethical individuals who gain unauthorized access to networks or systems for malicious reasons or personal gain.</p>
+                    <p>They seek to steal, modify, or delete data and their primary motivation is usually for financial gain, but could include espionage, protest, or simply the thrill of cyber crimes.</p>
+                    <p>In any case, these hackers can inflict major damage on individual users and large organizations by stealing sensitive information, compromising security, or shutting down or altering services and functions.</p>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="tab">
+                    <div class="tabmenu">
+                        <button class="tablinks" onclick="openTab(event, 'scriptkiddies')" id="defaultOpen">Script Kiddies</button>
+                        <button class="tablinks" onclick="openTab(event, 'hacktivists')">Hacktivists</button>
+                        <button class="tablinks" onclick="openTab(event, 'state-sponsored')">State-Sponsored</button>
+                        <button class="tablinks" onclick="openTab(event, 'cybercriminals')">Cyber Criminals</button>
+                    </div>
+                    <div id="scriptkiddies" class="tabcontent">
+                        <div class="tabimage">
+                            <img src="scriptkiddie.jpg" alt="Script Kiddies" class="tabimg">
+                        </div>
+                        <div class="tabtext">
+                            <h3>Script Kiddies</h3>
+                            <p>Script kiddies, also known as amateurs, are individuals that have little to no skills in hacking.</p>
+                            <p>Often times, they employ the use of existing tools, programs, and instructions found online in order to conduct attacks.</p>
+                            <p>Most script kiddies are new or inexperienced hackers with varying motivations.</p>
+                            <p>Some may just be curious, or wish to flaunt their skills by causing harm.</p>
+                            <p>However, despite their lack of know-how, script kiddies should not be taken lightly, as they can cause devastating attacks.</p>
+                        </div>
+                    </div>
+                    <div id="hacktivists" class="tabcontent">
+                        <div class="tabimage">
+                            <img src="hacktivist.jpg" alt="Hacktivists" class="tabimg">
+                        </div>
+                        <div class="tabtext">
+                            <h3>Hacktivists</h3>
+                            <p>Hacktivists are hackers who protest against political and social issues by hacking for attention.</p>
+                            <p>These attackers are typically politically or socially motivated and utilize the Internet to raise awareness and promote their message.</p>
+                            <p>They may publicly protest against organizations or governments by publishing articles, videos, leaking sensitive information, and performing Distributed Denial of Service attacks.</p>
+                            <p>One hacktivist group you may have heard about is Anonymous. While most groups aren't usually very organized, they can still cause serious disruptions to governments and businesses.</p>
+                            <p>Hacktivists often rely on simple or freely available tools.</p>
+                        </div>
+                    </div>
+                    <div id="state-sponsored" class="tabcontent">
+                        <div class="tabimage">
+                            <img src="statesponsored.jpg" alt="State-Sponsored" class="tabimg">
+                        </div>
+                        <div class="tabtext">
+                            <h3>State-Sponsored</h3>
+                            <p>State-sponsored hackers are attackers who are funded and guided by a government.</p>
+                            <p>These individuals are given orders to launch operations that a state wishes them to conduct.</p>
+                            <p>The goal of their attacks can include gathering intelligence, sabotaging computer networks, stealing government secrets, interfering with internal politics, or committing industrial espionage.</p>
+                            <p>The targets of state-sponsored hackers can range from governments to terrorist groups to corporations.</p>
+                            <p>Many countries around the world participate to some degree in state-sponsored hacking.</p>
+                        </div>
+                    </div>
+                    <div id="cybercriminals" class="tabcontent">
+                        <div class="tabimage">
+                            <img src="cybercriminal.jpg" alt="Cyber Criminals" class="tabimg">
+                        </div>
+                        <div class="tabtext">
+                            <h3>Cyber Criminals</h3>
+                            <p>Cyber criminals are black hat hackers whose goal is to make money using any means possible.</p>
+                            <p>While some are independent and work alone, others are funded and sponsored by criminal organizations.</p>
+                            <p>They commit malevolent attacks on systems and networks in order to steal sensitive information or personal data, with the ultimate goal of generating profit.</p>
+                            <p>Underground markets are used to trade malicious goods and services, like hacking tools or stolen information and specialize in certain products or services.</p>
+                            <p>There are a large variety of victims that are targeted by cyber criminals, including businesses, consumers, and enterprises.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="stickyNavbar.js"></script>
+        <script src="accordion.js"></script>
+        <script src="openTab.js"></script>
+    </body>
+</html>

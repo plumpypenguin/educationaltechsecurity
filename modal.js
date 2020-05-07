@@ -14,8 +14,7 @@ function modalContent(clicked_id) {
         and generally being a nuisance."
         document.getElementById("malware-tips").innerHTML = "You should use a trusted and up-to-date antivirus program that will detect and protect against computer viruses. Additionally, always exercise \
         caution when opening email and text message attachments, avoid shady websites or advertisements, and be careful when downloading files from the Internet."
-    }
-    else if (clicked_id == "trojan") {
+    } else if (clicked_id == "trojan") {
         document.getElementById("malware-name").innerHTML = "Trojans";
         document.getElementById("malware-desc-1").innerHTML = "A Trojan horse or Trojan is a type of malware that is often disguised as legitimate software. Trojans can be employed by cyber-thieves and hackers trying to gain access to users' systems. \
         Users are typically tricked by some form of social engineering into loading and executing Trojans on their systems.";
@@ -25,8 +24,7 @@ function modalContent(clicked_id) {
         modifying data, copying data, disrupting the performance of computers or computer networks."
         document.getElementById("malware-tips").innerHTML = "To avoid getting infected with a Trojan horse, never download or install software from a source you do not trust completely. Never open an attachment or run a program sent to you in an email from someone you do not \
         know. Keep all software on your computer up to date with the latest patches. Make sure an antivirus is installed and running on your computer.";
-    }
-    else if (clicked_id == "worm") {
+    } else if (clicked_id == "worm") {
         document.getElementById("malware-name").innerHTML = "Worms";
         document.getElementById("malware-desc-1").innerHTML = "A worm is a malicious, self-replicating program that can spread throughout a network automatically. They  often utilize large amounts of memory and bandwidth, so infected servers, networks and individual systems \
         are often overloaded and stop responding."
@@ -36,8 +34,7 @@ function modalContent(clicked_id) {
         such as hard drive space or bandwidth, by overloading a shared network. In addition to wreaking havoc on a computer’s resources, worms can also steal data, install a backdoor, and allow a hacker to gain control over a computer and its system settings. "
         document.getElementById("malware-tips").innerHTML = "When browsing the web or using your computer, be sure to never download attachments unless you know exactly what they are and who they are from. Avoid free software from untrusted marketplaces. Be extremely cautious using P2P \
         file sharing. Do not click on ads, especially ones from brands and websites you are not familiar with.";
-    }
-    else if (clicked_id == "rootkit") {
+    } else if (clicked_id == "rootkit") {
         document.getElementById("malware-name").innerHTML = "Rootkits";
         document.getElementById("malware-desc-1").innerHTML = "Rootkits are a type of malware that are designed so that they can remain hidden on your computer. They give cybercriminals the ability to remotely control your computer. \
         Rootkits can do numerous things such as stealing your passwords and banking information, but there are different types of rootkits to look out for.";
@@ -51,8 +48,7 @@ function modalContent(clicked_id) {
         document.getElementById("malware-tips").innerHTML = "There are many precautions a user can take to help prevent rootkits from hijacking their computer. Keeping your OS and other applications up to date is a simple way to help protect \
         yourself against rootkits. Refrain from opening unfamiliar emails, asammers are everywhere nowadays and try to get your information by sending suspicious emails with a link attached to it. Refrain from clicking on the links and delete \
         the emails. Don’t download files from unknown or untrustworthy sources. This can lead to a rootkit being installed onto your computer so make sure you where a file is from before opening it.";
-    }
-    else if (clicked_id == "spyware") {
+    } else if (clicked_id == "spyware") {
         document.getElementById("malware-name").innerHTML = "Spyware";
         document.getElementById("malware-desc-1").innerHTML = "Spyware is malicious software designed to infiltrate your computer undetected and keep track of your internet usage, gain your passwords, and any other personal information.";
         document.getElementById("malware-desc-2").innerHTML = "You can get your computer infected with spyware by downloading from unreliable sources, opening unfamiliar emails, pirating movies or games, and even clicking on a pop-up \
@@ -65,8 +61,7 @@ function modalContent(clicked_id) {
         document.getElementById("malware-tips").innerHTML = "There are some precautions you can take to help prevent spyware for getting onto your computer. Don’t open emails from random or unfamiliar senders because this can get spyware on your \
         computer easily if you’re careless. Try not to download from unsecure or unreliable sources. Doing so could just download unneeded spyware. Make sure to read any pop-ups before clicking on them. Finally make sure to have a \
         reliable antivirus software installed on your computer and keep it up to date.";
-    }
-    else if (clicked_id == "ransomware") {
+    } else if (clicked_id == "ransomware") {
         document.getElementById("malware-name").innerHTML = "Ransomware";
         document.getElementById("malware-desc-1").innerHTML = "Ransomware, or ransom malware, is a type of malware that blocks a user's access to their \
         system or personal data unless a ransom is paid. Some types of ransomware may threaten to publish stolen data, such as sensitive files or personal photos.";
@@ -82,8 +77,7 @@ function modalContent(clicked_id) {
         either to an external storage device, or to the cloud. This ensures your data is still safe and available in the event of a ransomware attack. Learning how to \
         recognize malicious spam emails, suspicious websites, and other scams is a good preventative measure that will reduce the chances of ransomware infection. Finally, \
         you should never pay the ransom if you do get infected. There is no guarantee you will get your files back."
-    }
-    else if (clicked_id == "adware") {
+    } else if (clicked_id == "adware") {
         document.getElementById("malware-name").innerHTML = "Adware";
         document.getElementById("malware-desc-1").innerHTML = "Adware, or advertising-supported malware, is malware that presents unwanted advertisements on your screen, usually \
         within a web browser.";

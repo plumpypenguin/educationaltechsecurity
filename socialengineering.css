@@ -12,7 +12,6 @@
    background-size: cover;
 }
 
-
 /* Page content */
 .content {
   min-height: 950px;
@@ -38,9 +37,15 @@
 /* Display the columns below each other instead of side by side on small
 screens */
 @media screen and (max-width: 650px) {
+  .content {
+    min-height: 2850px;
+  }
   .column {
-      width: 50%;
+      width: 100%;
       display: block;
+  }
+  #expandedTab {
+    font-size: 12px;
   }
 }
 
