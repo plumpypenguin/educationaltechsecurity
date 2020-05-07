@@ -12,9 +12,10 @@
    background-size: cover;
 }
 
+
 /* Page content */
 .content {
-  min-height: 760px;
+  min-height: 950px;
 }
 
 /* The grid: Five equal columns that float next to each other */
